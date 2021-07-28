@@ -1,5 +1,5 @@
 baseurl = "https://cattocat.github.io/PicC"
-# https://cattocat.github.io/PicC/
+
 title = "Creative portfolio"
 theme = "hugo-creative-portfolio-theme"
 publishDir   = "docs"
