@@ -34,8 +34,8 @@ jobs:
         with:
           hugo-version: '0.85.0'
           
-      - name: Clean public directory
-        run: rm -rf public       
+      #- name: Clean public directory
+      #  run: rm -rf public       
         
       - name: Build
         run: hugo --minify
@@ -43,8 +43,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
+        #if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages
+          #publish_branch: gh-pages
