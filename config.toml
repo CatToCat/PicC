@@ -49,8 +49,8 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
+  name = "Catch"
+  url = "catch/"
 
   [params.social]
   facebook      = "full page or profile url in facebook"
