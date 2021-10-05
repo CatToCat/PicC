@@ -1,5 +1,7 @@
 baseurl = "https://cattocat.github.io/PicC"
 
+
+
 title = "PicC"
 theme = "hugo-creative-portfolio-theme"
 
