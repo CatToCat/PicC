@@ -2,7 +2,7 @@
 <br>
 <a href="{{.Params.image | absURL }}" target="view_window">{{.Params.image | absURL }}</a>
 <br>
-<label>{{.Params.date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</label>
+<label>{{.Params.date}}</label>
 <div class="col-xs-12 col-sm-12 col-md-12 content-column white-background">
   {{ partial "mobile_nav_toggle.html" . }}
   <div class="row">      
